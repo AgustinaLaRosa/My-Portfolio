@@ -24,41 +24,24 @@ header{
 
 .logo{
     width: 63px;
+    
 }
 
-.hero-nav{
-    display: flex;
-    justify-content: space-between;
-    }
-
-nav ul{
-    list-style: none;
-    }
-
-header nav ul li{
-    display: inline-block;
-    margin-right: 40px;
-
+.navbar navbar-expand-lg{
+    background-color: white;
+    
 }
 
-header nav ul li a{
-    text-decoration: none;
-    color: black;
-        
-}
-
-.hero-nav ul li a:hover{
-    color: gray;
-}
-
-.hero-nav ul li a:active{
-    color: gray;
+.nav-link{
+    display: flex; 
+    justify-content: space-around;    
 }
 
 .linkedin{
     width: 32px;
 
 }
+
 
 /* MAIN */
 
@@ -159,7 +142,6 @@ h2{
 
 
 
-
 /*FOOTER*/
 
 footer{
@@ -167,13 +149,19 @@ footer{
     padding: 80px;
 }
 
-footer ul{
-    padding: 0px;
+.footer-nav{
+    display:flex;
+    flex-direction: row;
 }
 
-footer nav ul li a{
+footer ul{
+    padding: 0px;
+
+}
+
+footer nav ul li a{    
     text-decoration: none;
-    color: white;
+    color: white;  
 }
 
 footer nav ul li{
@@ -181,8 +169,9 @@ footer nav ul li{
     margin-right: 10px;
 }
 
-.logofooter{
+.logo-footer{
     width: 32px;
+    margin-bottom: 20px;
 }
 
 /*PORTFOLIO*/
