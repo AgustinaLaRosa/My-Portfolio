@@ -42,9 +42,8 @@ header{
 
 }
 
-
+/*HOME PAGE*/
 /* MAIN */
-
 /*PRIMERA SECTION*/
 
 .hero-section{
@@ -84,6 +83,7 @@ h1{
     color: black;
 }
 
+/*HOME PAGE*/
 /*SEGUNDA SECTION FEATURES PROJECTS*/
 
 .features-projects-grid{
@@ -128,7 +128,7 @@ h2{
     text-align: center;
 }
 
-
+/*HOME PAGE*/
 /*OTHER WORK SECTION*/
 
 .other-work{
@@ -141,7 +141,6 @@ h2{
 }
 
 
-
 /*FOOTER*/
 
 footer{
@@ -149,9 +148,9 @@ footer{
     padding: 80px;
 }
 
-.footer-nav{
+.footer-flex{
     display:flex;
-    flex-direction: row;
+    
 }
 
 footer ul{
@@ -169,12 +168,15 @@ footer nav ul li{
     margin-right: 10px;
 }
 
+
 .logo-footer{
     width: 32px;
     margin-bottom: 20px;
+    
+    
 }
 
-/*PORTFOLIO*/
+/*PORTFOLIO  PAGE*/
 
 .portfolio-herotext{
     margin: 80px;
@@ -192,3 +194,25 @@ footer nav ul li{
     column-gap: 10px;
     row-gap: 10px;   
 }
+
+/*MEDIA QUERY*/
+
+@media screen and (max-width:1200px) {
+
+    .hero-section{               
+        grid-template-rows: 80%;
+        grid-template-columns: 1fr 1fr;
+        margin: 40px 80px 30px 80px;    
+    }
+
+    .grid-heroimage img{
+        width: 510px;
+    }
+
+    .other-work-carrusel img{
+        width: 1000;
+
+    }
+    
+}
+
