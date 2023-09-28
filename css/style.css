@@ -35,7 +35,7 @@ header{
 .navbar-nav {
     display: flex;
     width: 100%;
-    justify-content: end;
+    justify-content: end; 
     }
 
 .linkedin{
@@ -46,33 +46,23 @@ header{
 
 /*HOME PAGE*/
 /* MAIN */
-/*PRIMERA SECTION*/
+/*FIRST SECTION*/
 
 .hero-section{
     /* GRID */
     width: 100%;
     display: grid;
-    grid-template-rows: auto;
+    grid-template-rows: max-content;
     grid-template-columns: 1fr 1fr;
     column-gap: 40px;
-    padding: 10px 80px 30px 90px;    
+    padding: 10px 80px 0px 90px;    
 }
 
-.hero-section div img{
-    width: 100%;
-    height: 100%;
 
-}
-
-.grid-herotext{
+.grid-hero-text{
     margin-top: 85px;
     width: 100%;
 }
-
-.grid-heroimage{
-    width: 100%;
-}
-
 
 h1{
     font-size: 70px;
@@ -91,6 +81,13 @@ h1{
     text-decoration: underline;
     color: black;
 }
+
+.grid-hero-image{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
 
 /*HOME PAGE*/
 /*SEGUNDA SECTION FEATURES PROJECTS*/
@@ -167,7 +164,9 @@ footer{
 .footer-flex{
     display:flex;
     
+    
 }
+
 
 footer ul{
     padding: 0px;
@@ -221,37 +220,55 @@ footer nav ul li{
 
 @media screen and (max-width:1200px) {
 /*HOME 1200px*/
+/* NAV BAR 1200px */
     .navbar-nav {
-        font-size: 24px;
+        font-size: 20px;
         }
 
     .linkedin{
             width: 46px;   
         }
 
+/*HERO SECTION 1200px*/    
+    
+    .hero-section p{
+        font-size: 20px;
+
+    }
+
+    .hero-section a{
+        font-size: 18px;
+    }  
     
 
 
+/* FEATURES SECTION 1200px*/
+
     .features-projects-grid{
-        grid-template-rows: 300px 300px 300px;
-        grid-template-columns: 1fr;   
+        padding: 80px 80px 80px 80px;
+        grid-template-rows: max-content;
+        grid-template-columns: 1fr; 
         
     }
 
-    .text-grid{
-        width: 100%;
-        height: 150px;
+    .text-grid h2{
+        font-size: 16px;
     }
+
+    .text-grid p{
+        font-size: 16px;
+    }
+
 
 /*FOOTER 1200 px*/
 
     footer nav ul li a{    
-        font-size: 22px; 
+        font-size: 20px; 
     }
 
 
     
-/*PORTFOLIO 1200px*/
+/*PORTFOLIO PAGE 1200px*/
 
 .portfolio-text h2{
     font-size: 26px;
@@ -268,12 +285,36 @@ footer nav ul li{
     row-gap: 10px;   
 }
 
+
+
     
 }
 
 /*850 PX*/
-
+/* HOME*/
 @media screen and (max-width:850px){
+
+.hero-section{
+    grid-template-columns: 1fr;
+
+}
+
+.grid-hero-text{
+    margin-top: 40px;
+}
+
+.other-work{
+    font-size: 16px;
+}
+
+
+
+
+
+/*850 PX*/
+/* PORTFOLIO PAGE*/
+
+
 
     .grid-portfolio{  
         grid-template-columns: 1fr;     
@@ -289,6 +330,34 @@ footer nav ul li{
 /*620PX*/
 
 @media screen and (max-width:620px){
+
+    .hero-section{
+        padding: 10px 50px 0px 50px;
+        text-align: center;
+    }
+
+    .grid-hero-text{
+        margin-top: 20px;
+    }
+
+    h1{
+        line-height: normal;
+    }
+
+    .grid-hero-image img{
+        width: 80%;
+        margin-top: 30px;
+    }
+
+    .features-projects-grid{
+        padding: 40px;
+        text-align: center;    
+
+    }
+
+    .features-projects-grid div img{
+        width: 80%;
+    }
 
 
     .footer-flex{
@@ -320,6 +389,12 @@ footer nav ul li{
 /*446PX*/
 
 @media screen and (max-width: 447px){
+
+
+    h1{
+        font-size: 50px;
+    }
+
 
     footer nav ul li a{    
         font-size: 13px; 
