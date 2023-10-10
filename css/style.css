@@ -166,8 +166,10 @@ h2{
 }
 
 .other-work-carrusel{
-    margin: 0px 0px 100px 0px
+    margin: 0px 0px 100px 0px;   
 }
+
+
 
 
 /*FOOTER*/
@@ -208,6 +210,11 @@ footer nav ul li:hover{
     margin-bottom: 15px;
 }
 
+.footer-nav{
+    display: flex;
+    align-items: center;
+
+}
 
 
 /*PORTFOLIO  PAGE*/
@@ -286,9 +293,8 @@ footer nav ul li:hover{
 
 .more-info{
     display: flex;
-    padding: 30px 80px 40px 80px;
+    padding: 30px 80px 0px 80px;
     justify-content: space-between;
-    margin-bottom: 100px;
 
 }
 
@@ -316,6 +322,12 @@ footer nav ul li:hover{
     display: flex
 }
 
+.resume-container{
+    padding: 10px 80px 40px 80px;
+    margin-bottom: 80px;
+
+}
+
 /*CONTACT PAGE*/
 
 .content-flex{
@@ -341,6 +353,10 @@ footer nav ul li:hover{
 
 .form-control{
     width: 70%;
+}
+
+.info iframe{
+    width: 100%;
 }
 
 /*PROJECTS PAGES*/
