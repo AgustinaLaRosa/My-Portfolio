@@ -19,7 +19,9 @@ header{
     margin-bottom: 20px;
     position: sticky;
     top: 0;
-    padding: 20px 80px 20px 80px;   
+    padding: 20px 80px 20px 80px;
+    z-index: 100;
+    
 }
 
 .logo{
@@ -38,10 +40,16 @@ header{
     justify-content: end; 
     }
 
+
+
 .linkedin{
     width: 32px;
     margin-left: 10px;
 
+}
+
+.linkedin:hover{
+    filter:opacity(50%)
 }
 
 /*HOME PAGE*/
@@ -88,6 +96,10 @@ h1{
     text-align: center;
 }
 
+.grid-hero-text a:hover{
+    color: rgb(210, 210, 210);
+}
+
 
 /*HOME PAGE*/
 /*SEGUNDA SECTION FEATURES PROJECTS*/
@@ -130,6 +142,10 @@ h2{
     color: darkslategray;
 }
 
+.features-projects-grid a:hover{
+    color: rgb(210, 210, 210);
+}
+
 .features-projects-grid div image{
     width: 100%;
     height: 100%;
@@ -162,8 +178,7 @@ footer{
 }
 
 .footer-flex{
-    display:flex;
-    
+    display:flex;   
     
 }
 
@@ -183,10 +198,16 @@ footer nav ul li{
     margin-right: 10px;
 }
 
+footer nav ul li:hover{
+    filter: opacity(50%);
+
+}
+
 .logo-footer{
     width: 50px;
     margin-bottom: 15px;
 }
+
 
 
 /*PORTFOLIO  PAGE*/
@@ -214,6 +235,145 @@ footer nav ul li{
     height: 100%;
 }
 
+.grid-image:hover{
+    filter: opacity(.5)
+
+}
+
+
+
+/*ABOUT ME PAGE*/
+
+.flex-container{
+    display: flex;
+    padding: 30px 80px 40px 80px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+
+}
+
+.photo{
+    width: fit-content;
+
+}
+
+.photo img{    
+    width: 500px;    
+}
+
+.resume-button{
+    margin-top: 20px;
+    color: black;
+    display: block;
+}
+
+.my-info{
+    width: 100%;
+    padding-left: 50px ;
+}
+
+.list-about-me{
+    list-style: none;
+    padding-left: 0px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.list-about-me li{
+    padding-bottom: 5px;
+    
+}
+
+.more-info{
+    display: flex;
+    padding: 30px 80px 40px 80px;
+    justify-content: space-between;
+    margin-bottom: 100px;
+
+}
+
+.more-info a:hover{
+    color: gray;
+}
+
+.list-extra-info{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.skill{
+    display: block;
+    color: white;
+    border-radius: 28px;
+    background-color: black;
+    padding: 8px 15px 8px 15px;
+    margin: 0px 8px 8px 0px ;
+    width: fit-content;
+
+}
+
+.skills-container{
+    display: flex
+}
+
+/*CONTACT PAGE*/
+
+.content-flex{
+    display: flex;
+    padding: 30px 80px 40px 80px;
+}
+
+.info{ 
+    width: 50%;
+    margin-right: 150px;
+}
+
+
+.mb-3{
+    margin-top: 100px;
+    width: 30%;
+}
+
+#exampleFormControlInput1{
+    margin-bottom: 10px;
+}
+
+/*PROJECTS PAGES*/
+
+.title{
+    padding: 30px 80px 10px 80px; 
+
+}
+
+.portfolio-project{   
+    padding: 30px 80px 40px 80px; 
+    text-align: center;
+}
+
+.hero-banner{
+    width: 100%;
+}
+
+.hero-banner img{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.other-projects{
+    display: flex;
+    padding: 10px 80px 60px 80px; 
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+.other-projects img{
+    width:290px;
+}
+
+.feature:hover{filter: blur(5px)
+
+}
 
 
 /*MEDIA QUERY*/
