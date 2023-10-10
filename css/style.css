@@ -424,6 +424,10 @@ footer nav ul li:hover{
         font-size: 16px;
     }
 
+    
+/* FEATURES SECTION 1200px*/
+
+    
 
 /*FOOTER 1200 px*/
 
@@ -532,6 +536,10 @@ footer nav ul li:hover{
 
     footer {
         padding: 50px 50px 50px 50px;
+    }
+
+    .linkedin{
+        margin-left: 0px;
     }
 
     
