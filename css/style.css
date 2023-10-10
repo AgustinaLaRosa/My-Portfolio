@@ -280,7 +280,7 @@ footer nav ul li:hover{
 }
 
 .list-about-me li{
-    padding-bottom: 5px;
+    line-height: 26px;
     
 }
 
@@ -321,21 +321,26 @@ footer nav ul li:hover{
 .content-flex{
     display: flex;
     padding: 30px 80px 40px 80px;
+    justify-content: space-between;
 }
 
 .info{ 
-    width: 50%;
-    margin-right: 150px;
+    width: 40%;
+    
 }
 
 
 .mb-3{
     margin-top: 100px;
-    width: 30%;
+    width: 50%;
 }
 
-#exampleFormControlInput1{
+#exampleFormControlInput1{  
     margin-bottom: 10px;
+}
+
+.form-control{
+    width: 70%;
 }
 
 /*PROJECTS PAGES*/
