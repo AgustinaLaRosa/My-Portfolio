@@ -363,6 +363,7 @@ footer nav ul li:hover{
 
 /*PROJECTS PAGES*/
 
+
 .project-name{
     padding: 30px 80px 40px 80px;
 
@@ -370,7 +371,8 @@ footer nav ul li:hover{
 
 .project-overview{
     padding: 30px 80px 40px 80px;
-    display:flex;    
+    display:flex;
+    justify-content: space-between;    
 }
 
 .overview{
