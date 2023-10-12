@@ -176,7 +176,7 @@ h2{
 
 footer{
     background-color: black;
-    padding: 80px;
+    padding: 60px 80px 60px 80px;
 }
 
 .footer-flex{
@@ -347,12 +347,14 @@ footer nav ul li:hover{
     width: 50%;
 }
 
+
 #exampleFormControlInput1{  
     margin-bottom: 10px;
 }
 
 .form-control{
     width: 70%;
+    margin-bottom: 20px;
 }
 
 .info iframe{
@@ -361,40 +363,55 @@ footer nav ul li:hover{
 
 /*PROJECTS PAGES*/
 
+.project-name{
+    padding: 30px 80px 40px 80px;
+
+}
+
+.project-overview{
+    padding: 30px 80px 40px 80px;
+    display:flex;    
+}
+
+.overview{
+    width: 30%;
+}
+
+.tools{
+    width: 60%;
+}
+
+
+.other-projects img{
+    width: 300px;
+}
+
+.projects-mockups{   
+    padding: 30px 80px 40px 80px; 
+
+}
+
 .title{
     padding: 30px 80px 10px 80px; 
+    
 
-}
-
-.portfolio-project{   
-    padding: 30px 80px 40px 80px; 
-    text-align: center;
-}
-
-.hero-banner{
-    width: 100%;
-}
-
-.hero-banner img{
-    width: 100%;
-    margin-bottom: 50px;
 }
 
 .other-projects{
     display: flex;
     padding: 10px 80px 60px 80px; 
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 
-.other-projects img{
-    width:290px;
-}
+
 
 .feature:hover{filter: blur(5px)
 
 }
+
+
 
 
 /*MEDIA QUERY*/
@@ -451,49 +468,113 @@ footer nav ul li:hover{
         font-size: 20px; 
     }
 
+    footer{
+        padding: 30px 80px 30px 80px;
+    }
+
 
     
 /*PORTFOLIO PAGE 1200px*/
 
-.portfolio-text h2{
-    font-size: 26px;
+    .portfolio-text h2{
+        font-size: 26px;
 }
 
-.portfolio-text p{
-    padding: 0px 50px 0px 50px;
-    font-size: 20px;
+    .portfolio-text p{
+        padding: 0px 50px 0px 50px;
+        font-size: 20px;
 }
 
-.grid-portfolio{  
-    grid-template-columns: 1fr 1fr;
-    column-gap: 10px;
-    row-gap: 10px;   
+    .grid-portfolio{  
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10px;
+        row-gap: 10px;   
+}
+
+/*ABOUT ME PAGE 1200px*/
+
+    .my-info h1{line-height:70px;
+        margin-bottom: 30px;
+    
+    
+    }
+
+
+
+
+/*CONTACT PAGE 1200px*/
+
+    .info h1{ margin-bottom: 0px;
+        line-height: 70px;
 }
 
 
+/* PROJECTS PAGES*/
+
+.other-projects img{
+    width: 50px;
+}
 
     
 }
+
+/*1050 PX*/
+/*ABOUT ME PAGE*/
+@media screen and (max-width:1050px){
+
+    .flex-container{
+        display: block;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        width: 100%;
+    }
+
+    .photo img{
+        text-align: center;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .my-info{
+        padding-left: 0px;
+    }
+
+    .list-extra-info{
+        margin-bottom: 30px;
+    }
+
+    .more-info{
+        display: block;
+    }
+
+    .resume-container{
+        margin-bottom: 40px;
+    }  
+
+}
+
+
 
 /*850 PX*/
 /* HOME*/
 @media screen and (max-width:850px){
 
-.hero-section{
-    grid-template-columns: 1fr;
+    .hero-section{
+        grid-template-columns: 1fr;
 
 }
 
-.grid-hero-text{
-    margin-top: 40px;
+    .grid-hero-text{
+        margin-top: 40px;
 }
 
-.other-work{
-    font-size: 16px;
+    .other-work{
+        font-size: 16px;
 }
 
-
-
+    footer{
+        padding: 30px 40px 30px 40px;
+}
 
 
 /*850 PX*/
@@ -509,69 +590,80 @@ footer nav ul li:hover{
     .portfolio-herotext{
         margin: 50px;
     }
+
+
+
+/*850 PX*/
+/*CONTACT PAGE*/
+
+    .content-flex{
+        display: block;
+}
+
+    .info{
+        width: 100%;
+}
+
+    .mb-3{
+        width: 100%;
+        margin-top: 50px;
+}
+
+
+
     
+}
+
+/*646PX*/
+/*ABOUT ME*/
+
+@media screen and (max-width: 646px){
+
+    .skill{
+        padding: 8px 12px 8px 12px;
+        
+
+    }
+
+
 }
 
 /*620PX*/
+/*ABOUT ME*/
 
-@media screen and (max-width:620px){
+@media screen and (max-width: 620px){
 
-    .hero-section{
-        padding: 10px 50px 0px 50px;
-        text-align: center;
-    }
-
-    .grid-hero-text{
-        margin-top: 20px;
-    }
-
-    h1{
-        line-height: normal;
-    }
-
-    .grid-hero-image img{
-        width: 80%;
-        margin-top: 30px;
-    }
-
-    .features-projects-grid{
-        padding: 40px;
-        text-align: center;    
-
-    }
-
-    .features-projects-grid div img{
-        width: 80%;
-    }
-
-
-    .footer-flex{
-        display:block;
-        grid-template-rows: 40px;          
-    }
-
-    footer {
-        padding: 50px 50px 50px 50px;
-    }
-
-    .linkedin{
-        margin-left: 0px;
-    }
-
-    
-}
-
-/*570PX*/
-
-@media screen and (max-width: 571px){
     footer nav ul li a{    
         font-size: 18px; 
     }
+
+    .skill{
+        padding: 8px 9px 8px 12px;
+        
+
+    }
+
+
+}
+
+
+
+
+
+/*571PX*/
+
+@media screen and (max-width: 571px){   
 
     .portfolio-herotext{
         margin: 30px;
     }
 
+.footer-flex{
+    display: block;
+}
+
+.linkedin{
+    margin-left: 0px;}
 
 }
 
