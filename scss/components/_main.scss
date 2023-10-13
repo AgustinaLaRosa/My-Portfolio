@@ -1,7 +1,6 @@
-/*HOME PAGE*/
+//! HOME PAGE 
 .hero-section{
-    width: 100%;
-    display: grid;
+    @extend %grid-container;    
     grid-template-rows: max-content;
     grid-template-columns: 1fr 1fr;
     column-gap: 40px;
@@ -21,7 +20,7 @@
         }
         a{
             text-decoration: underline;
-            color: black;
+            color: $color-secundario;
 
         }
     }
@@ -35,7 +34,7 @@
     }
     a{
         &:hover{
-            color: rgb(210, 210, 210);
+            color: $color-terciario;
     }
 
     }
@@ -49,12 +48,8 @@
 }
 
 .features-projects-grid{
-    width: 100%;   
-    display: grid;
-    grid-template-rows: 400px 400px 400px;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 40px;
-    row-gap: 40px;
+    @extend %grid-container;   
+    @include grid(400px 400px 400px,1fr 1fr,40px,40px); 
     padding: 130px 80px 10px 80px; 
     div{
         h2{
@@ -68,16 +63,16 @@
 
         }
         p{
-            color: gray;
+            color: $color-terciario;
         font-size: 14px;
         margin-bottom: 20px;
 
         }
         a{
             text-decoration: underline;
-            color: darkslategray;
+            color: $color-secundario;
             &:hover{
-                color: rgb(210, 210, 210);
+                color: $color-terciario;
             }
 
         }
@@ -133,12 +128,8 @@
 }
 
 .grid-portfolio{
-    width: 100%;
-    display: grid;
-    grid-template-rows: max-content;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 10px;
-    row-gap: 10px; 
+    @extend %grid-container; 
+    @include grid(max-content,1fr 1fr 1fr,10px,10px);   
         div{
             img{
                 width: 100%;
@@ -208,7 +199,7 @@
 
 .resume-container{
     a{&:hover{
-        color: gray;
+        color: $color-terciario;
 
     }
 
@@ -224,9 +215,9 @@
 
 .skill{
     display: block;
-    color: white;
+    color: $color-principal;
     border-radius: 28px;
-    background-color: black;
+    background-color: $color-secundario;
     padding: 8px 15px 8px 15px;
     margin: 0px 8px 8px 0px ;
     width: fit-content;
@@ -320,9 +311,8 @@
 }
 
 .other-projects{
-    padding: 10px 80px 60px 80px; 
-    width: 100%;
-    display: grid;
+    @extend %grid-container;
+    padding: 10px 80px 60px 80px;  
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
 

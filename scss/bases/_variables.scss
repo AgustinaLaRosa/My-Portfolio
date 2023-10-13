@@ -1,0 +1,21 @@
+//! VARIABLES
+$color-principal: white;
+$color-secundario: black;
+$color-terciario: gray;
+
+//! LISTAS
+$colores: white,black,gray;
+
+//! EXTENDS
+%grid-container{
+    width: 100%;
+    display: grid;
+}
+
+//! MIXING
+@mixin grid($rows,$columns,$rgap,$cgap){
+    grid-template-rows: $rows;
+    grid-template-columns: $columns;
+    row-gap: $rgap;
+    column-gap:$cgap;
+}

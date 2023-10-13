@@ -1,5 +1,5 @@
 header{
-    background-color: white;
+    background-color: $color-principal;
     margin-bottom: 20px;
     position: sticky;
     top: 0;
@@ -23,7 +23,7 @@ header{
 }
 
 .nav navbar-expand-lg{
-    background-color: white;
+    background-color: $color-principal;
 
 }
 

@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+.hero-section, .features-projects-grid, .grid-portfolio, .other-projects {
+  width: 100%;
+  display: grid; }
+
 /* RESET */
 * {
   margin: 0;
@@ -32,10 +36,7 @@ header {
   .linkedin:hover {
     filter: opacity(50%); }
 
-/*HOME PAGE*/
 .hero-section {
-  width: 100%;
-  display: grid;
   grid-template-rows: max-content;
   grid-template-columns: 1fr 1fr;
   column-gap: 40px;
@@ -58,7 +59,7 @@ header {
   width: 100%; }
 
 a:hover {
-  color: #d2d2d2; }
+  color: gray; }
 
 .grid-hero-image {
   width: 100%;
@@ -66,12 +67,10 @@ a:hover {
   text-align: center; }
 
 .features-projects-grid {
-  width: 100%;
-  display: grid;
   grid-template-rows: 400px 400px 400px;
   grid-template-columns: 1fr 1fr;
-  column-gap: 40px;
   row-gap: 40px;
+  column-gap: 40px;
   padding: 130px 80px 10px 80px; }
   .features-projects-grid div h2 {
     text-transform: uppercase;
@@ -84,9 +83,9 @@ a:hover {
     margin-bottom: 20px; }
   .features-projects-grid div a {
     text-decoration: underline;
-    color: darkslategray; }
+    color: black; }
     .features-projects-grid div a:hover {
-      color: #d2d2d2; }
+      color: gray; }
 
 .text-grid {
   width: 100%; }
@@ -116,12 +115,10 @@ a:hover {
   padding: 0px 300px 0px 300px; }
 
 .grid-portfolio {
-  width: 100%;
-  display: grid;
   grid-template-rows: max-content;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 10px;
-  row-gap: 10px; }
+  row-gap: 10px;
+  column-gap: 10px; }
   .grid-portfolio div img {
     width: 100%;
     height: 100%; }
@@ -231,8 +228,6 @@ a:hover {
 
 .other-projects {
   padding: 10px 80px 60px 80px;
-  width: 100%;
-  display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr; }
 
