@@ -1,0 +1,45 @@
+header{
+    background-color: white;
+    margin-bottom: 20px;
+    position: sticky;
+    top: 0;
+    padding: 20px 80px 20px 80px;
+    z-index: 100;
+    nav{
+        div{
+            a{
+                img{
+
+                }
+            }
+        }
+    }
+
+}
+
+.logo{
+    width: 63px;
+
+}
+
+.nav navbar-expand-lg{
+    background-color: white;
+
+}
+
+.navbar-nav{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+
+}
+
+.linkedin{
+    width: 32px;
+    margin-left: 10px;
+    &:hover{
+        filter:opacity(50%)
+
+    }
+
+}

@@ -1,0 +1,360 @@
+/*1551*/
+/*ABOUT ME*/
+
+@media screen and (max-width:1433px){
+    .more-info {
+        flex-wrap: wrap;
+        padding: 30px 249px 0px 80px;  
+}
+    .list-extra-info{
+        margin-bottom: 40px;
+    }
+}
+
+/*1332*/
+@media screen and (max-width:1332px){
+    .more-info {        
+        padding: 30px 153px 0px 80px
+
+} 
+}
+    
+
+
+@media screen and (max-width:1200px) {
+/*HOME 1200px*/
+/* NAV BAR 1200px */
+    .navbar-nav {
+        font-size: 20px;
+        }
+
+    .linkedin{
+            width: 46px;   
+        }
+
+/*HERO SECTION 1200px*/    
+    
+    .hero-section p{
+        font-size: 20px;
+
+    }
+
+    .hero-section a{
+        font-size: 18px;
+    }  
+    
+
+
+/* FEATURES SECTION 1200px*/
+
+    .features-projects-grid{
+        padding: 80px 80px 80px 80px;
+        grid-template-rows: max-content;
+        grid-template-columns: 1fr; 
+        
+    }
+
+    .text-grid h2{
+        font-size: 16px;
+    }
+
+    .text-grid p{
+        font-size: 16px;
+    }
+
+    
+/* FEATURES SECTION 1200px*/
+
+    
+
+/*FOOTER 1200 px*/
+
+    footer nav ul li a{    
+        font-size: 20px; 
+    }
+
+    footer{
+        padding: 30px 80px 30px 80px;
+    }
+
+
+    
+/*PORTFOLIO PAGE 1200px*/
+
+    .portfolio-text h2{
+        font-size: 26px;
+}
+
+    .portfolio-text p{
+        padding: 0px 50px 0px 50px;
+        font-size: 20px;
+}
+
+    .grid-portfolio{  
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10px;
+        row-gap: 10px;   
+}
+
+/*ABOUT ME PAGE 1200px*/
+
+    .my-info h1{line-height:70px;
+        margin-bottom: 30px;   
+    
+    }
+
+    .more-info{
+        display: block;
+        padding: 30px 80px 0px 80px ;
+    }
+
+
+
+
+/*CONTACT PAGE 1200px*/
+
+    .info h1{ margin-bottom: 0px;
+        line-height: 70px;
+}
+
+
+/* PROJECTS PAGES*/
+
+.tools {
+    width: 50%;
+}
+.overview{
+    width: 30%;
+}
+
+
+
+    
+}
+
+/*1050 PX*/
+
+
+
+/*ABOUT ME PAGE*/
+@media screen and (max-width:1050px){
+
+    .flex-container{
+        display: block;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        width: 100%;
+    }
+
+    .photo img{
+        text-align: center;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .my-info{
+        padding-left: 0px;
+    }
+
+    .list-extra-info{
+        margin-bottom: 30px;
+    }
+
+    .more-info{
+        display: block;
+    }
+
+    .resume-container{
+        margin-bottom: 40px;
+    }  
+
+}
+
+
+
+/*850 PX*/
+/* HOME*/
+@media screen and (max-width:850px){
+
+    .hero-section{
+        display: block;
+        grid-template-columns: 1fr;
+
+}
+
+    .grid-hero-text{
+        margin-top: 40px;
+}
+
+    .other-work{
+        font-size: 16px;
+}
+
+
+
+/*850 PX*/
+/* PORTFOLIO PAGE*/
+
+
+
+    .grid-portfolio{  
+        grid-template-columns: 1fr;     
+        row-gap: 10px;   
+    }
+
+    .portfolio-herotext{
+        margin: 50px;
+    }
+
+
+
+/*850 PX*/
+/*CONTACT PAGE*/
+
+    .content-flex{
+        display: block;
+}
+
+    .info{
+        width: 100%;
+}
+
+    .mb-3{
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    /*PROJECTS PAGES*/
+
+    .other-projects{
+        display: block;
+    }
+
+    .other-projects div{
+        margin-bottom: 30px;
+    }
+
+    
+}
+
+/*678PX*/
+/*HOME*/
+@media screen and (max-width: 678px){
+    .grid-hero-image img{
+        width: 300px;
+    }
+}
+
+/*643PX*/
+/*ABOUT ME*/
+@media screen and (max-width: 643px){
+
+    .more-info{
+        padding: 30px 40px 0px 40px;
+    }
+    .skill{
+        padding: 8px 10px 8px 10px ;
+    }
+
+    .flex-container{
+        padding: 30px 40px 0px 40px;
+    }
+
+    .resume-container{
+        padding: 30px 40px 0px 40px;
+    }
+
+    footer{
+        padding: 30px 40px 30px 40px;
+
+    }
+    /*PROJECT PAGE*/
+    .project-overview{
+        display: block;
+    }
+
+    .overview{
+        width: 100%;
+    }
+
+    .tools{
+        width: 100%;
+    }
+
+    .image-grid img{
+        width: 400px;
+    }
+}
+
+/*609PX*/
+/*ABOUT ME*/
+@media screen and (max-width: 609px){
+    .skill{
+        padding: 8px 8px 8px 8px ;
+}
+.project-name{
+    padding: 30px 40px 40px 40px;
+}
+
+.project-overview{
+    padding: 0px 40px 40px 40px;
+}
+
+.projects-mockups{
+    padding: 0px 40px 40px 40px;
+}
+
+.other-projects{
+        padding: 0px 40px 40px 40px;
+    }
+}
+
+
+/*571PX*/
+
+@media screen and (max-width: 571px){   
+
+    .portfolio-herotext{
+        margin: 30px;
+    }
+
+.footer-flex{
+    display: block;
+}
+
+.linkedin{
+    margin-left: 0px;}
+
+}
+
+/*521PX*/
+/*ABOUT ME*/
+@media screen and (max-width: 521px){
+    .skills-container p{
+        font-size: 12px ;
+
+}
+}
+
+
+/*446PX*/
+
+@media screen and (max-width: 447px){
+
+
+    h1{
+        font-size: 50px;
+    }
+
+
+    footer nav ul li a{    
+        font-size: 13px; 
+    }   
+
+/*PROJECT PAGE*/
+.image-grid img{
+    width: 300px;
+}
+
+}
+    

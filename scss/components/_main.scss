@@ -1,0 +1,339 @@
+/*HOME PAGE*/
+.hero-section{
+    width: 100%;
+    display: grid;
+    grid-template-rows: max-content;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    padding: 10px 80px 0px 80px;
+    div{
+        h1{
+            font-size: 70px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 600;
+            margin-bottom: 20px; 
+        }
+        p{ 
+            font-size: 18px;
+            margin-bottom: 20px;
+            line-height: 30px;
+
+        }
+        a{
+            text-decoration: underline;
+            color: black;
+
+        }
+    }
+
+    }
+
+.grid-hero-text{
+    margin-top: 85px;
+    width: 100%;
+    
+    }
+    a{
+        &:hover{
+            color: rgb(210, 210, 210);
+    }
+
+    }
+
+
+.grid-hero-image{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+}
+
+.features-projects-grid{
+    width: 100%;   
+    display: grid;
+    grid-template-rows: 400px 400px 400px;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 40px;
+    padding: 130px 80px 10px 80px; 
+    div{
+        h2{
+            text-transform: uppercase;
+            font-size: 14px;
+            font-weight: 400;
+            margin-bottom: 20px;
+
+        }
+        h3{
+
+        }
+        p{
+            color: gray;
+        font-size: 14px;
+        margin-bottom: 20px;
+
+        }
+        a{
+            text-decoration: underline;
+            color: darkslategray;
+            &:hover{
+                color: rgb(210, 210, 210);
+            }
+
+        }
+    }
+    
+}
+
+.text-grid{
+    width: 100%;
+    h3{
+        font-size: 25px;
+        margin-bottom: 10px;
+
+    }
+}
+
+.image-grid{
+    width: 100%;
+    text-align: center;
+    img{
+        width: 100%;
+        height: 100%;
+
+    }
+}
+
+.other-work{
+    text-align: center;
+
+
+}
+
+.other-work-carrusel{
+    margin: 0px 0px 100px 0px;
+
+}
+
+
+/*PORTFOLIO*/
+
+.portfolio-herotext{
+    margin: 80px;
+    text-align: center;
+
+}
+
+.portfolio-text{
+    p{
+        padding: 0px 300px 0px 300px;
+
+    }
+
+}
+
+.grid-portfolio{
+    width: 100%;
+    display: grid;
+    grid-template-rows: max-content;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px; 
+        div{
+            img{
+                width: 100%;
+                height: 100%;
+
+            }
+        }
+
+}
+
+.grid-image{
+    &:hover{
+        filter: opacity(.5)
+
+    }
+
+}
+
+
+
+/*ABOUT ME*/
+
+.flex-container{
+    display: flex;
+    padding: 30px 80px 40px 80px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    div{
+        img{
+
+        }
+    }
+}
+
+.photo{
+    width: fit-content;
+    img{
+        width: 500px;   
+    }
+
+}
+
+.my-info{
+    width: 100%;
+    padding-left: 50px ;
+
+}
+
+.list-about-me{
+    list-style: none;
+    padding-left: 0px;
+    font-weight: bold;
+    margin-top: 50px;
+    li{
+        line-height: 26px;
+
+    }
+
+}
+
+.more-info{
+    display: flex;
+    padding: 30px 80px 0px 80px;
+    justify-content: space-between;
+    
+}
+
+.resume-container{
+    a{&:hover{
+        color: gray;
+
+    }
+
+    }
+    
+
+}
+
+.list-extra-info{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.skill{
+    display: block;
+    color: white;
+    border-radius: 28px;
+    background-color: black;
+    padding: 8px 15px 8px 15px;
+    margin: 0px 8px 8px 0px ;
+    width: fit-content;
+
+}
+
+.skills-container{
+    display: flex;    
+    align-items: center;
+}
+
+.resume-container{
+    padding: 10px 80px 40px 80px;
+    margin-bottom: 80px;
+
+}
+
+/*CONTACT*/
+
+.content-flex{
+    display: flex;
+    padding: 30px 80px 40px 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info{ 
+    width: 40%;
+    
+}
+
+
+.mb-3{
+    width: 50%;
+}
+
+
+#exampleFormControlInput1{  
+    margin-bottom: 10px;
+}
+
+.form-control{
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+.info {
+    iframe{
+    width: 100%;}
+}
+
+
+/*PROJECTS PAGES*/
+
+
+.project-name{
+    padding: 30px 80px 40px 80px;
+
+}
+
+.project-overview{
+    padding: 30px 80px 40px 80px;
+    display:flex;
+    justify-content: space-between;    
+}
+
+.overview{
+    width: 30%;
+}
+
+.tools{
+    width: 60%;
+}
+
+
+.projects-mockups{   
+    padding: 30px 80px 40px 80px; 
+
+}
+
+.title{
+    padding: 30px 80px 10px 80px; 
+    
+
+}
+
+
+.feature:hover{
+    filter: blur(5px)
+
+}
+
+.other-projects{
+    padding: 10px 80px 60px 80px; 
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+
+}
+
+.other-projects{
+    div{
+        img{width: 100%;
+            height: 100%;
+
+        }    
+    }
+}
+
