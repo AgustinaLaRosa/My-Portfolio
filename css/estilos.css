@@ -247,7 +247,6 @@ a:hover {
   display: flex;
   justify-content: space-between; }
   .project-overview .overview {
-<<<<<<< HEAD
     width: 30%;
     padding: 60px; }
   .project-overview .tools {
@@ -261,17 +260,6 @@ a:hover {
   width: 100%;
   background-color: black;
   text-align: center; }
-=======
-    width: 30%; }
-  .project-overview .tools {
-    width: 60%; }
-
-.projects-mockups {
-  padding: 30px 80px 40px 80px; }
-  .projects-mockups .image-grid {
-    width: 100%;
-    text-align: center; }
->>>>>>> dc30872b08526f1a84979ead100cbc29992888c6
 
 .title {
   text-transform: uppercase;
@@ -318,7 +306,6 @@ footer {
   width: 50px;
   margin-bottom: 15px; }
 
-<<<<<<< HEAD
 .linkedin-footer {
   width: 32px;
   margin-left: 10px; }
@@ -331,8 +318,6 @@ footer {
   .behance-footer:hover {
     filter: opacity(50%); }
 
-=======
->>>>>>> dc30872b08526f1a84979ead100cbc29992888c6
 /*1570*/
 /*ABOUT ME*/
 @media screen and (max-width: 1570px) {
@@ -409,16 +394,7 @@ footer {
   /*CONTACT PAGE 1200px*/
   .content-flex .info h1 {
     margin-bottom: 0px;
-<<<<<<< HEAD
     line-height: 70px; } }
-=======
-    line-height: 70px; }
-  /* PROJECTS PAGES*/
-  .project-overview .overview {
-    width: 30%; }
-  .project-overview .tools {
-    width: 50%; } }
->>>>>>> dc30872b08526f1a84979ead100cbc29992888c6
 
 /*1050 PX*/
 /*ABOUT ME PAGE*/
@@ -433,13 +409,15 @@ footer {
       width: 100%;
       margin-bottom: 50px; }
     .flex-container .my-info {
-      padding-left: 0px; }
-  .more-info {
-    display: block; }
-    .more-info div .list-extra-info {
-      margin-bottom: 30px; }
-  .resume-container {
-    margin-bottom: 40px; } }
+      padding-left: 0px; } }
+
+.more-info {
+  display: block; }
+  .more-info div .list-extra-info {
+    margin-bottom: 30px; }
+
+.resume-container {
+  margin-bottom: 40px; }
 
 /*991 PX*/
 /* HOME*/
@@ -503,25 +481,17 @@ footer {
 /*HOME*/
 @media screen and (max-width: 678px) {
   .hero-section .grid-hero-image img {
-<<<<<<< HEAD
     width: 300px; }
   .hero-section {
     text-align: center; }
   .features-projects-grid {
     text-align: center; }
     .features-projects-grid .image-grid a img {
-      width: 400px; }
-  /*643PX*/
-  /*ABOUT ME*/ }
-
-@media screen and (max-width: 678px) and (max-width: 643px) {
-=======
-    width: 300px; } }
+      width: 400px; } }
 
 /*643PX*/
 /*ABOUT ME*/
 @media screen and (max-width: 643px) {
->>>>>>> dc30872b08526f1a84979ead100cbc29992888c6
   .flex-container {
     padding: 30px 40px 0px 40px; }
   .more-info {
@@ -532,97 +502,56 @@ footer {
     padding: 30px 40px 0px 40px; }
   /*FOOTER*/
   footer {
-    padding: 30px 40px 30px 40px; }
-  /*PROJECT PAGE*/
-<<<<<<< HEAD
-  .projects-mockups .image-grid img {
-    width: 360px; } }
+    padding: 30px 40px 30px 40px; } }
 
-@media screen and (max-width: 678px) {
+/*PROJECT PAGE*/
+.projects-mockups {
   /*609PX*/ }
-
-@media screen and (max-width: 678px) and (max-width: 609px) {
-  /*NAV*/
-  header {
-    padding: 20px 40px 20px 40px; }
-  /*ABOUT ME*/
-=======
-  .project-overview {
-    display: block; }
-    .project-overview .overview {
-      width: 100%; }
-    .project-overview .tools {
-      width: 100%; }
   .projects-mockups .image-grid img {
-    width: 360px; } }
+    width: 360px; }
+  @media screen and (max-width: 609px) {
+    .projects-mockups {
+      /*NAV*/
+      /*ABOUT ME*/
+      /*PROJECT PAGE*/ }
+      .projects-mockups header {
+        padding: 20px 40px 20px 40px; }
+      .projects-mockups .skills-container .skill {
+        padding: 8px 8px 8px 8px; }
+      .projects-mockups .project-name {
+        padding: 30px 40px 40px 40px; }
+      .projects-mockups .projects-mockups {
+        padding: 40px 40px 40px 40px; }
+        .projects-mockups .projects-mockups div iframe {
+          width: 300px;
+          height: 200px; }
+      .projects-mockups .project-overview {
+        padding: 0px 40px 40px 40px; }
+      .projects-mockups .other-projects {
+        padding: 0px 40px 40px 40px; } }
 
-/*609PX*/
-/*ABOUT ME*/
-@media screen and (max-width: 609px) {
->>>>>>> dc30872b08526f1a84979ead100cbc29992888c6
-  .skills-container .skill {
-    padding: 8px 8px 8px 8px; }
-  /*PROJECT PAGE*/
-  .project-name {
-    padding: 30px 40px 40px 40px; }
-  .projects-mockups {
-    padding: 40px 40px 40px 40px; }
-    .projects-mockups div iframe {
-      width: 300px;
-      height: 200px; }
-  .project-overview {
-    padding: 0px 40px 40px 40px; }
-  .other-projects {
-    padding: 0px 40px 40px 40px; } }
-
-<<<<<<< HEAD
-@media screen and (max-width: 678px) {
-  /*571PX*/
-  /*PORTFOLIO*/ }
-
-@media screen and (max-width: 678px) and (max-width: 571px) {
-=======
 /*571PX*/
 /*PORTFOLIO*/
 @media screen and (max-width: 571px) {
->>>>>>> dc30872b08526f1a84979ead100cbc29992888c6
   .portfolio-herotext {
     margin: 30px; }
   /*HOME*/
   footer .footer-flex {
     display: block; }
-<<<<<<< HEAD
   footer .linkedin-footer {
     margin-left: 0px; }
   footer .behance-footer {
     margin-left: 0px; } }
 
-@media screen and (max-width: 678px) {
-  /*556PX*/
-  /*HOME*/ }
-=======
-  footer .linkedin {
-    margin-left: 0px; } }
+/*556PX*/
+/*HOME*/
+@media screen and (max-width: 556px) {
+  .features-projects-grid .image-grid a img {
+    width: 340px; } }
 
 /*521PX*/
 /*ABOUT ME*/
 @media screen and (max-width: 521px) {
-  .more-info .skills-container p {
-    font-size: 12px; }
-  /*HOME*/
-  .features-projects-grid .image-grid img {
-    width: 300px; } }
->>>>>>> dc30872b08526f1a84979ead100cbc29992888c6
-
-@media screen and (max-width: 678px) and (max-width: 556px) {
-  .features-projects-grid .image-grid a img {
-    width: 340px; } }
-
-@media screen and (max-width: 678px) {
-  /*521PX*/
-  /*ABOUT ME*/ }
-
-@media screen and (max-width: 678px) and (max-width: 521px) {
   .more-info .skills-container p {
     font-size: 12px; }
   .hero-section {
@@ -632,27 +561,18 @@ footer {
     padding-left: 40px;
     padding-right: 40px; } }
 
-@media screen and (max-width: 678px) {
-  /*494PX*/
-  /*HOME*/ }
-
-@media screen and (max-width: 678px) and (max-width: 494px) {
+/*494PX*/
+/*HOME*/
+@media screen and (max-width: 494px) {
   .features-projects-grid .image-grid a img {
     width: 300px; } }
 
-@media screen and (max-width: 678px) {
-  /*446PX*/ }
-
-@media screen and (max-width: 678px) and (max-width: 447px) {
+/*446PX*/
+@media screen and (max-width: 447px) {
   h1 {
     font-size: 50px; }
   footer nav ul li a {
     font-size: 13px; }
   /*HOME PAGE*/
-<<<<<<< HEAD
   .features-projects-grid .image-grid a img {
     width: 250px; } }
-=======
-  .features-projects-grid .image-grid img {
-    width: 270px; } }
->>>>>>> dc30872b08526f1a84979ead100cbc29992888c6

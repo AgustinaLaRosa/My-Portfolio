@@ -175,7 +175,6 @@
                 margin-bottom: 0px;
                 line-height: 70px;
         }
-<<<<<<< HEAD
 
         } 
 
@@ -183,29 +182,6 @@
 }
 
 
-=======
-
-        } 
-
-    }
-
-
-
-/* PROJECTS PAGES*/
-
-.project-overview{ 
-    .overview{
-        width: 30%;
-    }       
-    .tools {
-        width: 50%;
-}
-    
-}
-}
-
-
->>>>>>> dc30872b08526f1a84979ead100cbc29992888c6
 /*1050 PX*/
 /*ABOUT ME PAGE*/
 @media screen and (max-width:1050px){
@@ -228,6 +204,7 @@
             
         }
     }
+}
 
     .more-info{
         display: block;
@@ -242,7 +219,7 @@
     .resume-container{
         margin-bottom: 40px;
     } 
-}
+
 
 
 /*991 PX*/
@@ -346,10 +323,7 @@
     }
 }
 
-
-    
-
-    /*PROJECTS PAGES*/
+/*PROJECTS PAGES*/
 
     .other-projects{
         display: block;
@@ -370,7 +344,6 @@
     }
 
 }
-<<<<<<< HEAD
 
 .hero-section{
     text-align: center;
@@ -384,13 +357,9 @@
         
     }
 }
-
-
-
-=======
-    
->>>>>>> dc30872b08526f1a84979ead100cbc29992888c6
 }
+}
+
 
 /*643PX*/
 /*ABOUT ME*/
@@ -420,41 +389,17 @@
         padding: 30px 40px 30px 40px;
 
     }
-<<<<<<< HEAD
-
-    /*PROJECT PAGE*/        
-
-    .projects-mockups{
-        .image-grid img{
-            width: 360px;
-        }
-
-=======
-
-    /*PROJECT PAGE*/
-    .project-overview{
-        display: block;
-        .overview{
-            width: 100%;
-        }
-        .tools{
-            width: 100%;
-        }
-    }       
-
-    .projects-mockups{
-        .image-grid img{
-            width: 360px;
-        }
-
->>>>>>> dc30872b08526f1a84979ead100cbc29992888c6
-    }
-    
 }
+
+/*PROJECT PAGE*/        
+
+    .projects-mockups{
+        .image-grid img{
+            width: 360px;
+        }
 
 /*609PX*/
 @media screen and (max-width: 609px){
-<<<<<<< HEAD
 /*NAV*/
 header{    
     padding: 20px 40px 20px 40px;   
@@ -462,8 +407,6 @@ header{
     }
 /*ABOUT ME*/
 
-=======
->>>>>>> dc30872b08526f1a84979ead100cbc29992888c6
 
     .skills-container{
         .skill{
@@ -499,6 +442,7 @@ header{
         padding: 0px 40px 40px 40px;
     }
 }
+    }
 
 
 /*571PX*/
@@ -515,22 +459,16 @@ footer{
     .footer-flex{
         display: block;
     }
-<<<<<<< HEAD
     .linkedin-footer{
         margin-left: 0px;}
 
     .behance-footer{
-            margin-left: 0px;}
-=======
-    .linkedin{
         margin-left: 0px;}
->>>>>>> dc30872b08526f1a84979ead100cbc29992888c6
     
     }
 
 }
 
-<<<<<<< HEAD
 /*556PX*/
 /*HOME*/
 
@@ -552,10 +490,6 @@ footer{
 
 }
 
-=======
-
-
->>>>>>> dc30872b08526f1a84979ead100cbc29992888c6
 
 /*521PX*/
 /*ABOUT ME*/
@@ -567,7 +501,6 @@ footer{
     }
 
     }
-<<<<<<< HEAD
 
     .hero-section{
         padding-left: 40px;
@@ -603,17 +536,6 @@ footer{
     
     }
 
-=======
-    
-/*HOME*/
-.features-projects-grid{
-    .image-grid img{
-        width: 300px;
-    }
-
-}
-
->>>>>>> dc30872b08526f1a84979ead100cbc29992888c6
 
 }
 
@@ -636,7 +558,6 @@ footer{
 /*HOME PAGE*/
 
 .features-projects-grid{
-<<<<<<< HEAD
     .image-grid {
         a{
             img{
@@ -644,24 +565,8 @@ footer{
         }
 
         }
-    }
-    
-    
-=======
-    .image-grid{
-        img{
-            width: 270px;
-        }
-
     } 
->>>>>>> dc30872b08526f1a84979ead100cbc29992888c6
-
+ 
+}
 }
 
-
-}
-<<<<<<< HEAD
-}
-=======
-    
->>>>>>> dc30872b08526f1a84979ead100cbc29992888c6
