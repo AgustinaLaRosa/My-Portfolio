@@ -230,8 +230,8 @@
         text-align: center;
     }
     .linkedin{
-        margin-bottom: 6px;
         margin-left: 0px;
+        margin-bottom: 5px;
     }
 
     .behance{
@@ -358,7 +358,22 @@
     }
 }
 }
+
+/*PROJECTS PAGES*/
+
+.projects-mockups{
+    div{
+        iframe{
+            width: 300px;
+            height: 200px ;
+
+        }
+    }
+
 }
+}
+
+
 
 
 /*643PX*/
@@ -463,9 +478,19 @@ footer{
         margin-left: 0px;}
 
     .behance-footer{
-        margin-left: 0px;}
+        margin-left: 5px;}
     
     }
+
+/*PROJECTS PAGE*/
+.project-name{
+    div{
+        h1{
+            font-size: 50px;
+
+        }
+    }
+}
 
 }
 
@@ -481,11 +506,11 @@ footer{
             }
 
             }
-        }
-        
-        
-    
-    }
+        }    
+                            }
+.project-overview{
+    padding: 30px 40px 40px 40px;
+}
 
 
 }
@@ -511,6 +536,10 @@ footer{
     .features-projects-grid{
         padding-left: 40px;
         padding-right: 40px;
+    }
+
+    .projects-mockups{
+        padding: 40px 40px 40px 40px;
     }
 
 
@@ -566,7 +595,7 @@ footer{
 
         }
     } 
- 
+
 }
 }
 
