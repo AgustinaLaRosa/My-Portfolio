@@ -4,7 +4,7 @@
     grid-template-rows: max-content;
     grid-template-columns: 1fr 1fr;
     column-gap: 40px;
-    padding: 10px 80px 0px 80px;
+    padding: 10px 80px 0px 90px;
     div{
         h1{
             font-size: 70px;
@@ -50,7 +50,7 @@
 .features-projects-grid{
     @extend %grid-container;   
     @include grid(400px 400px 400px,1fr 1fr,40px,40px); 
-    padding: 130px 80px 10px 80px; 
+    padding: 130px 80px 10px 90px; 
     .text-grid{
         width: 100%;
         h2{
@@ -83,11 +83,16 @@
     .image-grid{
         width: 100%;
         text-align: center;
+        &:hover{
+            filter: blur(5px)
+        }   
+
+        }
 
     }
 
     
-}
+
 
 
 
@@ -161,48 +166,91 @@
     padding: 30px 80px 40px 80px;
     margin-bottom: 50px;
     justify-content: space-between;
-    div{
+    .photo{
+        width: fit-content;
         img{
-
+            width: 500px;
         }
     }
-}
+    .my-info{
+        width: 100%;
+        padding-left: 50px;
+        h1{
+            font-size: 70px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 600;
+            margin-bottom: 20px; 
 
-.photo{
-    width: fit-content;
-    img{
-        width: 500px;   
+        }
+        p{
+
+        }
+        .list-about-me{
+            list-style: none;
+            padding-left: 0px;
+            font-weight: bold;
+            margin-top: 50px;
+            li{
+                line-height: 26px;
+            }
+        }
     }
-
-}
-
-.my-info{
-    width: 100%;
-    padding-left: 50px ;
-
-}
-
-.list-about-me{
-    list-style: none;
-    padding-left: 0px;
-    font-weight: bold;
-    margin-top: 50px;
-    li{
-        line-height: 26px;
-
-    }
-
 }
 
 .more-info{
     display: flex;
     padding: 30px 80px 0px 80px;
     justify-content: space-between;
-    
+    div{
+        h2{
+            text-transform: uppercase;
+            font-size: 14px;
+            font-weight: 400;
+            margin-bottom: 20px;
+            ul{
+                li{
+
+                }
+            }
+        }
+    }
+    div{
+        h2{
+
+        }
+        .list-extra-info{
+            list-style: none;
+            padding-left: 0px;
+            li{
+
+            }
+
+        }
+    }
+    .skills-container{
+        display: flex;    
+        align-items: center;
+        .skill{
+            display: block;
+            color: $color-principal;
+            border-radius: 28px;
+            background-color: $color-secundario;
+            padding: 8px 15px 8px 15px;
+            margin: 0px 8px 8px 0px ;
+            width: fit-content;
+
+        }
+    }
 }
 
+
 .resume-container{
-    a{&:hover{
+    padding: 10px 80px 40px 80px;
+    margin-bottom: 80px;
+    .resume-button{ 
+        text-decoration: underline;
+        color: black;
+        &:hover{
         color: $color-terciario;
 
     }
@@ -212,32 +260,7 @@
 
 }
 
-.list-extra-info{
-    list-style: none;
-    padding-left: 0px;
-}
 
-.skill{
-    display: block;
-    color: $color-principal;
-    border-radius: 28px;
-    background-color: $color-secundario;
-    padding: 8px 15px 8px 15px;
-    margin: 0px 8px 8px 0px ;
-    width: fit-content;
-
-}
-
-.skills-container{
-    display: flex;    
-    align-items: center;
-}
-
-.resume-container{
-    padding: 10px 80px 40px 80px;
-    margin-bottom: 80px;
-
-}
 
 /*CONTACT*/
 
@@ -246,31 +269,34 @@
     padding: 30px 80px 40px 80px;
     justify-content: space-between;
     align-items: center;
-}
+    .info{
+        width: 40%;
+        h1{
+            font-size: 70px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 600;
+            margin-bottom: 20px; 
 
-.info{ 
-    width: 40%;
+        }
+        iframe{
+            width: 100%;
+            
+
+        }
+    }
+    .mb-3{
+        width: 50%;
+        #exampleFormControlInput1{  
+            margin-bottom: 10px;
+        }
+        .form-control{
+            width: 70%;
+            margin-bottom: 20px;
+
+        }
+
+    }
     
-}
-
-
-.mb-3{
-    width: 50%;
-}
-
-
-#exampleFormControlInput1{  
-    margin-bottom: 10px;
-}
-
-.form-control{
-    width: 70%;
-    margin-bottom: 20px;
-}
-
-.info {
-    iframe{
-    width: 100%;}
 }
 
 
@@ -279,55 +305,87 @@
 
 .project-name{
     padding: 30px 80px 40px 80px;
+    h1{
+        font-size: 70px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 600;
+        margin-bottom: 20px; 
+
+    }
+    h2{
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
 
 }
 
 .project-overview{
     padding: 30px 80px 40px 80px;
+    margin-bottom: 40px;
     display:flex;
-    justify-content: space-between;    
-}
+    justify-content: space-between;
+    .overview{
+        width: 30%;   
+        padding: 60px;    
+    }
+    .tools{
+        width: 60%;
+        padding: 60px;
 
-.overview{
-    width: 30%;
-}
+    }
 
-.tools{
-    width: 60%;
+    .gif{
+        img{
+            width: 300px;
+
+        }              
+
+        }
 }
 
 
 .projects-mockups{   
-    padding: 30px 80px 40px 80px; 
-
+    padding: 40px 80px 40px 80px;   
+    width: 100%;
+    background-color: $color-secundario;
+    text-align: center;
+    
 }
+
+
 
 .title{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
     padding: 30px 80px 10px 80px; 
     
-
 }
 
-
-.feature:hover{
-    filter: blur(5px)
-
-}
 
 .other-projects{
     @extend %grid-container;
     padding: 10px 80px 60px 80px;  
     grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;     
+    div{        
+        .feature{
+            width: 100%;
+            height: 100%;
+            &:hover{
+                filter: blur(5px)
+            }           
+        
 
-}
-
-.other-projects{
-    div{
-        img{width: 100%;
+        }
+        .feature-pending{
+            width: 100%;
             height: 100%;
 
-        }    
+        }
     }
-}
 
+}

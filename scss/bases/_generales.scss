@@ -10,3 +10,15 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+#carouselExampleSlides2{
+    display: none;
+
+}
+
+.nav-link{
+    color: $color-secundario;
+    &:hover{
+        filter:opacity(50%)
+}
+}

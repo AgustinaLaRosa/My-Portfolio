@@ -52,6 +52,16 @@ header{
     filter:opacity(50%)
 }
 
+.behance{
+    width: 32px;
+    margin-left: 10px;
+}
+
+.behance:hover{
+    filter:opacity(50%)
+
+}
+
 /*HOME PAGE*/
 /* MAIN */
 /*FIRST SECTION*/
@@ -155,6 +165,11 @@ h2{
 .image-grid{
     width: 100%;
     text-align: center;
+}
+
+.image-grid img:hover{
+    filter: opacity(.5)
+
 }
 
 /*HOME PAGE*/
@@ -422,10 +437,10 @@ footer nav ul li:hover{
 
 /*MEDIA QUERY*/
 
-/*1551*/
+/*1570*/
 /*ABOUT ME*/
 
-@media screen and (max-width:1433px){
+@media screen and (max-width:1570px){
     .more-info {
         flex-wrap: wrap;
         padding: 30px 249px 0px 80px;  
@@ -436,6 +451,7 @@ footer nav ul li:hover{
 }
 
 /*1332*/
+/*ABOUT ME*/
 @media screen and (max-width:1332px){
     .more-info {        
         padding: 30px 153px 0px 80px
@@ -443,11 +459,11 @@ footer nav ul li:hover{
 } 
 }
     
-
-
-@media screen and (max-width:1200px) {
 /*HOME 1200px*/
 /* NAV BAR 1200px */
+
+@media screen and (max-width:1200px) {
+
     .navbar-nav {
         font-size: 20px;
         }
@@ -484,22 +500,7 @@ footer nav ul li:hover{
 
     .text-grid p{
         font-size: 16px;
-    }
-
-    
-/* FEATURES SECTION 1200px*/
-
-    
-
-/*FOOTER 1200 px*/
-
-    footer nav ul li a{    
-        font-size: 20px; 
-    }
-
-    footer{
-        padding: 30px 80px 30px 80px;
-    }
+    }     
 
 
     

@@ -36,3 +36,13 @@ header{
     }
 
 }
+
+
+.behance{
+    width: 32px;
+    margin-left: 10px;
+    &:hover{
+        filter:opacity(50%)
+
+    }
+}
