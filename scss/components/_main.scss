@@ -182,9 +182,6 @@
             margin-bottom: 20px; 
 
         }
-        p{
-
-        }
         .list-about-me{
             list-style: none;
             padding-left: 0px;
@@ -207,40 +204,38 @@
             font-size: 14px;
             font-weight: 400;
             margin-bottom: 20px;
-            ul{
-                li{
-
-                }
-            }
-        }
-    }
-    div{
-        h2{
-
-        }
         .list-extra-info{
             list-style: none;
             padding-left: 0px;
-            li{
-
+                
             }
-
         }
     }
-    .skills-container{
-        display: flex;    
-        align-items: center;
-        .skill{
-            display: block;
-            color: $color-principal;
-            border-radius: 28px;
-            background-color: $color-secundario;
-            padding: 8px 15px 8px 15px;
-            margin: 0px 8px 8px 0px ;
-            width: fit-content;
-
+    div{        
+        .list-extra-info{
+            list-style: none;
+            padding-left: 0px;
+            
         }
     }
+    div{
+        .skills-container{
+            display: flex;    
+            align-items: center;
+            .skill{
+                display: block;
+                color: $color-principal;
+                border-radius: 28px;
+                background-color: $color-secundario;
+                padding: 8px 15px 8px 15px;
+                margin: 0px 8px 8px 0px ;
+                width: fit-content;
+    
+            }
+        }
+
+    }
+    
 }
 
 

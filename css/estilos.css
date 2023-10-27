@@ -180,13 +180,16 @@ a:hover {
     font-size: 14px;
     font-weight: 400;
     margin-bottom: 20px; }
+    .more-info div h2 .list-extra-info {
+      list-style: none;
+      padding-left: 0px; }
   .more-info div .list-extra-info {
     list-style: none;
     padding-left: 0px; }
-  .more-info .skills-container {
+  .more-info div .skills-container {
     display: flex;
     align-items: center; }
-    .more-info .skills-container .skill {
+    .more-info div .skills-container .skill {
       display: block;
       color: white;
       border-radius: 28px;
